@@ -1,0 +1,60 @@
+.img {
+    height: 50px; /* Ajuste a altura conforme necessário */
+    width: auto;
+    float: left; /* Posiciona a imagem à esquerda */
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.img2 {
+    height: 300px;
+    width: 450px;
+}
+
+.img3 {
+    height: 400px;
+    width:600px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    color: #3379af;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #0265b1 ;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color:#154c79; 
+    color: white;
+    padding: 10px 20px; 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden; 
+}
+
+.header h1 {
+    text-align: center; 
+    margin: 0;
+    line-height: 50px; 
+}
+
+
+.spacer {
+    height: 60px; 
+}
